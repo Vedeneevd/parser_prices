@@ -31,23 +31,3 @@ with requests.Session() as session:
     print(total_prices)
 
 
-
-
-
-
-
-
-
-
-    #     for j in range(33):
-    #         mouse_url = f'https://parsinger.ru/html/mouse/3/3_{j}.html'
-    #         response = session.get(mouse_url)
-    #         response.encoding = 'utf-8'
-    #         soup = BeautifulSoup(response.text, 'lxml')
-    #         articles = soup.find_all('p', class_ = 'article')
-    #         for article in articles:
-    #             article = int(article.text.split()[-1])
-    #
-    #             total_article.append(article)
-    # print(sum(total_article))
-
